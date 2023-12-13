@@ -1,0 +1,15 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "Projeto para estudos de node - curso Udemy",
+  "main": "index.js",
+  "repository": "https://github.com/BGWellSS/udemy-node-back.git",
+  "author": "Wellington Souza <111922665+BGWellSS@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0"
+  }
+}
