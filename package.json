@@ -6,10 +6,16 @@
   "repository": "https://github.com/BGWellSS/udemy-node-back.git",
   "author": "Wellington Souza <111922665+BGWellSS@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "webpack --mode=production"
+  },
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "nodemon": "^3.0.2",
     "webpack": "^5.89.0"
   }
 }
